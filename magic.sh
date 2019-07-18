@@ -67,7 +67,7 @@ sudo cp ./Qogir-icon-theme/src/48/places/default-user-desktop.svg /usr/share/ico
 sudo cp ./Qogir-icon-theme/src/scalable/places/default-user-desktop.svg /usr/share/icons/Papirus/64x64/places/user-blue-desktop.svg
 
 # Symbolic
-sudo cp ./Qogir-icon-theme/src/symbolic/places/* /usr/share/icons/Papirus/symbolic/places/
+sudo cp ./Qogir-icon-theme/src/symbolic/places/* /usr/share/icons/Papirus-Dark/symbolic/places/
 
 # Recent Symbolic
 sudo cp ./Qogir-icon-theme/src/symbolic/places/folder-recent-symbolic.svg /usr/share/icons/Papirus-Dark/symbolic/actions/document-open-recent-symbolic.svg
