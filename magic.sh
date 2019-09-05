@@ -80,3 +80,27 @@ sudo cp ./Qogir-icon-theme/src/symbolic/places/folder-symbolic.svg /usr/share/ic
 
 # Trash Symbolic
 sudo cp ./Qogir-icon-theme/src/symbolic/places/user-trash-full-symbolic.svg /usr/share/icons/Papirus-Dark/symbolic/status/user-trash-full-symbolic.svg
+
+sudo cp ./Qogir-icon-theme/src/mimetypes/package-x-generic.svg /usr/share/icons/Papirus/64x64/apps/ark.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/package-x-generic.svg /usr/share/icons/Papirus/48x48/apps/ark.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/package-x-generic.svg /usr/share/icons/Papirus/32x32/apps/ark.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/package-x-generic.svg /usr/share/icons/Papirus/24x24/apps/ark.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/package-x-generic.svg /usr/share/icons/Papirus/16x16/apps/ark.svg
+
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-script.svg /usr/share/icons/Papirus/16x16/mimetypes/application-json.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-script.svg /usr/share/icons/Papirus/24x24/mimetypes/application-json.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-script.svg /usr/share/icons/Papirus/32x32/mimetypes/application-json.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-script.svg /usr/share/icons/Papirus/48x48/mimetypes/application-json.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-script.svg /usr/share/icons/Papirus/64x64/mimetypes/application-json.svg
+
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-generic.svg /usr/share/icons/Papirus/64x64/mimetypes/application-x-yaml.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-generic.svg /usr/share/icons/Papirus/48x48/mimetypes/application-x-yaml.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-generic.svg /usr/share/icons/Papirus/32x32/mimetypes/application-x-yaml.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-generic.svg /usr/share/icons/Papirus/24x24/mimetypes/application-x-yaml.svg
+sudo cp ./Qogir-icon-theme/src/mimetypes/text-x-generic.svg /usr/share/icons/Papirus/16x16/mimetypes/application-x-yaml.svg
+
+sudo cp ./Qogir-icon-theme/src/mimetypes/* /usr/share/icons/Papirus/64x64/mimetypes/*
+sudo cp ./Qogir-icon-theme/src/mimetypes/* /usr/share/icons/Papirus/48x48/mimetypes/*
+sudo cp ./Qogir-icon-theme/src/mimetypes/* /usr/share/icons/Papirus/32x32/mimetypes/*
+sudo cp ./Qogir-icon-theme/src/mimetypes/* /usr/share/icons/Papirus/24x24/mimetypes/*
+sudo cp ./Qogir-icon-theme/src/mimetypes/* /usr/share/icons/Papirus/16x16/mimetypes/*
