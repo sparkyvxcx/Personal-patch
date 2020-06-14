@@ -15,7 +15,7 @@ $ mkdir themes && cd themes
 Clone icon theme repo into `themes` folder:
 
 ```shell
-$ git clone https://github.com
+$ git clone https://github.com/vinceliuice/Qogir-icon-theme.git
 ```
 
 After complete, run:
@@ -24,7 +24,7 @@ After complete, run:
 bash magic.sh
 ````
 
-Will change Papirus icon theme's folder icon to Qogir theme's folder icon.
+Will change Papirus icon theme's folder icon to Qogir icon theme's folder icon, add some app icon, mimetype icon.
 
 And, `app.sh` revert Slack & Telegram & VirtualBox app icon to previous resonable state.
 

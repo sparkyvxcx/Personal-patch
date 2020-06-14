@@ -97,6 +97,10 @@ do
 	sudo cp ./themes/Qogir-icon-theme/src/scalable/places/default-folder-publicshare.svg /usr/share/icons/Papirus/$folder/places/folder-blue-remote.svg
 done
 
+# Arrow symbol replace
+sudo cp src/go-next-symbolic.svg /usr/share/icons/Papirus-Dark/symbolic/actions/go-next-symbolic.svg
+sudo cp src/go-previous-symbolic.svg /usr/share/icons/Papirus-Dark/symbolic/actions/go-previous-symbolic.svg
+
 # Applications
 # bash app.sh
 
