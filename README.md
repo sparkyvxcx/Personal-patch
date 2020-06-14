@@ -21,7 +21,7 @@ $ git clone https://github.com/vinceliuice/Qogir-icon-theme.git
 After complete, run:
 
 ```shell
-bash magic.sh
+$ bash magic.sh
 ````
 
 Will change [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)'s folder icon to [Qogir icon theme](https://github.com/vinceliuice/Qogir-icon-theme.git)'s folder icon, add some app icon, mimetype icon.
@@ -31,25 +31,39 @@ And, `app.sh` revert Slack & Telegram & VirtualBox app icon to previous resonabl
 Run:
 
 ```shell
-bash app.sh
+$ bash app.sh
 ```
 
-**Dash to Dock**
+### Preview
+
+OS:  Arch Linux
+DDE: Gnome 3.36.2
+
+#### Dash to Dock
+
+```shell
+$ bash app.sh
+```
 
 Before:
 
 ![Dash to Dock before](https://github.com/sparkyvxcx/Personal-patch/blob/master/screenshot/dod-before.png)
 
-After
+After:
 
 ![Dosh to Dock after](https://github.com/sparkyvxcx/Personal-patch/blob/master/screenshot/dod-after.png)
 
-**Nautilus**
+
+#### Nautilus
+
+```shell
+$ bash magic.sh
+```
 
 Before:
 
 ![Nautilus before](https://github.com/sparkyvxcx/Personal-patch/blob/master/screenshot/nautilus-before.png)
 
-After
+After:
 
 ![Nautilus after](https://github.com/sparkyvxcx/Personal-patch/blob/master/screenshot/nautilus-after.png)
