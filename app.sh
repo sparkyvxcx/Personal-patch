@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Swap some application icon from shitty re-design to original design
+
 ## Slack
 for i in 16 22 24 32 48 64; do sudo cp src/slack$i.svg /usr/share/icons/Papirus/${i}x${i}/apps/slack.svg; done
 

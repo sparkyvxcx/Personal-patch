@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Swap some Papirus-icon-theme icons to Qogir-icon-theme
+
 dir="./themes"
 
 [ -d $dir ] || exit

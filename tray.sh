@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Swap some application trays
+
 sudo cp src/slacktray/Numix/slack16.svg /usr/share/icons/Papirus-Dark/16x16/panel/slack-indicator.svg
 sudo cp src/slacktray/Numix/slack22.svg /usr/share/icons/Papirus-Dark/22x22/panel/slack-indicator.svg
 sudo cp src/slacktray/Numix/slack24.svg /usr/share/icons/Papirus-Dark/24x24/panel/slack-indicator.svg
