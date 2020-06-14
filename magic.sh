@@ -1,5 +1,9 @@
 #!/bin/sh
 
+dir="./themes"
+
+[ -d $dir ] || exit
+
 sudo cp ./Qogir-icon-theme/src/32/places/default-fileopen.svg /usr/share/icons/Papirus/32x32/places/folder-blue-documents-open.svg
 sudo cp ./Qogir-icon-theme/src/48/places/default-fileopen.svg /usr/share/icons/Papirus/48x48/places/folder-blue-documents-open.svg
 sudo cp ./Qogir-icon-theme/src/scalable/places/default-fileopen.svg /usr/share/icons/Papirus/64x64/places/folder-blue-documents-open.svg
@@ -81,6 +85,7 @@ sudo cp ./Qogir-icon-theme/src/symbolic/places/folder-symbolic.svg /usr/share/ic
 ## Trash Symbolic
 sudo cp ./Qogir-icon-theme/src/symbolic/places/user-trash-full-symbolic.svg /usr/share/icons/Papirus-Dark/symbolic/status/user-trash-full-symbolic.svg
 
+## Mimetypes
 for i in 16 22 24 32 48 64
 do
 	folder=$i'x'$i
@@ -92,5 +97,7 @@ do
 	sudo cp ./Qogir-icon-theme/src/scalable/places/default-folder-publicshare.svg /usr/share/icons/Papirus/$folder/places/folder-blue-remote.svg
 done
 
-# VirtualBox
-for i in 16 22 24 32 48 64; do sudo cp virtualbox${i}.svg /usr/share/icons/Papirus/${i}x${i}/apps/virtualbox.svg; done
+# Applications
+bash app.sh
+
+echo Done!
