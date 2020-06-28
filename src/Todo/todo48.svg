@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="todo48.svg"
-   id="svg16"
-   version="1.1"
-   viewBox="0 0 12.69975 12.69975"
+   width="48"
    height="48"
-   width="48">
+   viewBox="0 0 12.69975 12.69975"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="todo48.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <metadata
      id="metadata22">
     <rdf:RDF>
@@ -22,81 +22,82 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs20" />
   <sodipodi:namedview
-     inkscape:current-layer="svg16"
-     inkscape:window-maximized="1"
-     inkscape:window-y="27"
-     inkscape:window-x="0"
-     inkscape:cy="32"
-     inkscape:cx="32"
-     inkscape:zoom="12.21875"
-     showgrid="true"
-     id="namedview18"
-     inkscape:window-height="1022"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
      bordercolor="#666666"
-     pagecolor="#ffffff">
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
+     id="namedview18"
+     showgrid="true"
+     inkscape:zoom="17.279922"
+     inkscape:cx="22.678822"
+     inkscape:cy="24.014437"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16">
     <inkscape:grid
-       id="grid847"
-       type="xygrid" />
+       type="xygrid"
+       id="grid847" />
   </sodipodi:namedview>
   <g
-     id="g14"
+     transform="matrix(0.77675294,0,0,0.77675294,-0.22662757,-217.76871)"
      paint-order="markers stroke fill"
-     transform="matrix(0.75000407,0,0,0.75000407,-1.4490466e-4,-210.05078)">
+     id="g14">
     <circle
-       id="circle2"
-       stroke-linejoin="round"
-       stroke-linecap="round"
-       stroke-width="0.529"
-       stroke="#1f7195"
-       fill="#32a3d7"
-       opacity="0.9"
-       cx="8.467"
-       cy="288.53299"
-       r="7.1440001" />
-    <circle
-       id="circle4"
-       fill="#32a3d7"
        r="7.1440001"
        cy="288.53299"
-       cx="8.467" />
+       cx="8.467"
+       opacity="0.9"
+       fill="#32a3d7"
+       stroke="#1f7195"
+       stroke-width="0.529"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="circle2" />
+    <circle
+       cx="8.467"
+       cy="288.53299"
+       r="7.1440001"
+       fill="#32a3d7"
+       id="circle4" />
     <path
-       id="path6"
+       d="m 12.583,284.417 a 5.82,5.82 0 0 0 -8.232,0 5.82,5.82 0 0 0 0,8.232 5.82,5.82 0 0 0 0.154,0.144 h 1.304 a 5.027,5.027 0 0 0 5.318,0 h 1.297 a 5.82,5.82 0 0 0 0.159,-0.144 5.82,5.82 0 0 0 0,-8.232 z"
        opacity="0.15"
-       d="m 12.583,284.417 a 5.82,5.82 0 0 0 -8.232,0 5.82,5.82 0 0 0 0,8.232 5.82,5.82 0 0 0 0.154,0.144 h 1.304 a 5.027,5.027 0 0 0 5.318,0 h 1.297 a 5.82,5.82 0 0 0 0.159,-0.144 5.82,5.82 0 0 0 0,-8.232 z" />
+       id="path6" />
     <g
-       id="g12"
+       transform="matrix(0.69638,0,0,0.69638,2.685,87.888)"
        fill="#ffffff"
-       transform="matrix(0.69638,0,0,0.69638,2.685,87.888)">
+       id="g12">
       <rect
-         id="rect8"
-         transform="rotate(45)"
-         ry="0.79400003"
-         y="199.105"
+         width="5.2919998"
+         height="1.587"
          x="206.25101"
-         height="1.587"
-         width="5.2919998" />
+         y="199.105"
+         ry="0.79400003"
+         transform="rotate(45)"
+         id="rect8" />
       <rect
-         id="rect10"
-         transform="rotate(-45)"
-         width="7.9380002"
-         height="1.587"
-         x="-200.58701"
+         ry="0.79400003"
          y="210.061"
-         ry="0.79400003" />
+         x="-200.58701"
+         height="1.587"
+         width="7.9380002"
+         transform="rotate(-45)"
+         id="rect10" />
     </g>
   </g>
 </svg>

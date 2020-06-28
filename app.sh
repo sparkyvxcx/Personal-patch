@@ -11,7 +11,7 @@ spotify='spotify.svg'
 
 # Swap some application icon from shitty re-design to original design
 
-[-d '$dir' ] || exit 1
+[ -d $dir ] || exit 1
 
 ## Slack, Telegram, Virtualbox, Alacritty
 for i in 16 22 24 32 48 64
@@ -30,17 +30,18 @@ done
 ## Typora, Foliate, Chrome, Firefox, Spotify
 for i in 16 22 24 32 48 64
 do
-	sudo cp -v src/Typora/typora${i}.svg $dir${i}x${i}/apps/$typora
-	sudo cp -v src/Foliate/foliate${i}.svg $dir${i}x${i}/apps/$foliate
-	sudo cp -v src/Chrome/chrome${i}.svg $dir${i}x${i}/apps/$chrome
-	sudo cp -v src/Firefox/firefox${i}.svg $dir${i}x${i}/apps/$firefox
-	sudo cp -v src/Spotify/spotify${i}.svg $dir${i}x${i}/apps/$spotify
+	sudo cp src/Typora/typora${i}.svg $dir${i}x${i}/apps/$typora
+	sudo cp src/Foliate/foliate${i}.svg $dir${i}x${i}/apps/$foliate
+	sudo cp src/Chrome/chrome${i}.svg $dir${i}x${i}/apps/$chrome
+	sudo cp src/Firefox/firefox${i}.svg $dir${i}x${i}/apps/$firefox
+	sudo cp src/Spotify/spotify${i}.svg $dir${i}x${i}/apps/$spotify
 done
 
 ## Simplenote, System-Monitor, Gnome-Todo
 for i in 32 48 64
 do
-	sudo cp -v src/Simplenote/simplenote${i}.svg $dir${i}x${i}/apps/simplenote.svg
-	sudo cp -v src/Monitor/monitor${i}.svg $dir${i}x${i}/apps/utilities-system-monitor.svg
-	# sudo cp -v src/Todo/todo${i}.svg $dir${i}x${i}/apps/gnome-todo.svg
+	sudo cp src/Simplenote/simplenote${i}.svg $dir${i}x${i}/apps/simplenote.svg
+	sudo cp src/Monitor/monitor${i}.svg $dir${i}x${i}/apps/utilities-system-monitor.svg
+	sudo cp src/VMware/vmware-workstation${i}.svg $dir${i}x${i}/apps/vmware-workstation.svg
+	sudo cp src/Todo/todo${i}.svg $dir${i}x${i}/apps/gnome-todo.svg
 done
