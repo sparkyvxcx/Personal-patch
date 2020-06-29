@@ -27,7 +27,7 @@ done
 #sudo cp src/ep22.svg /usr/share/icons/Papirus/22x22/panel/enpass-status.svg
 #sudo cp src/ep24.svg /usr/share/icons/Papirus/24x24/panel/enpass-status.svg
 
-## Typora, Foliate, Chrome, Firefox, Spotify
+## Typora, Foliate, Chrome, Firefox, Spotify, Simplenote, VMware, Gnome-Todo
 for i in 16 22 24 32 48 64
 do
 	sudo cp src/Typora/typora${i}.svg $dir${i}x${i}/apps/$typora
@@ -35,13 +35,13 @@ do
 	sudo cp src/Chrome/chrome${i}.svg $dir${i}x${i}/apps/$chrome
 	sudo cp src/Firefox/firefox${i}.svg $dir${i}x${i}/apps/$firefox
 	sudo cp src/Spotify/spotify${i}.svg $dir${i}x${i}/apps/$spotify
-done
-
-## Simplenote, System-Monitor, Gnome-Todo
-for i in 32 48 64
-do
 	sudo cp src/Simplenote/simplenote${i}.svg $dir${i}x${i}/apps/simplenote.svg
-	sudo cp src/Monitor/monitor${i}.svg $dir${i}x${i}/apps/utilities-system-monitor.svg
 	sudo cp src/VMware/vmware-workstation${i}.svg $dir${i}x${i}/apps/vmware-workstation.svg
 	sudo cp src/Todo/todo${i}.svg $dir${i}x${i}/apps/gnome-todo.svg
+done
+
+##  System-Monitor
+for i in 32 48 64
+do
+	sudo cp src/Monitor/monitor${i}.svg $dir${i}x${i}/apps/utilities-system-monitor.svg
 done
