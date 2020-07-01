@@ -101,6 +101,7 @@ do
 	sudo cp $dir/scalable/mimetypes/text-x-generic.svg $papirus/$folder/mimetypes/application-x-yaml.svg
 	sudo cp $dir/scalable/mimetypes/text-x-generic.svg $papirus/$folder/mimetypes/text-x-generic.svg
 	sudo cp $dir/scalable/places/default-folder-publicshare.svg $papirus/$folder/places/folder-blue-remote.svg
+	sudo cp src/ebook.svg $papirus/$folder/mimetypes/image-vnd.djvu.svg
 done
 
 # Arrow symbol replace

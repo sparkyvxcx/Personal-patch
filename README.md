@@ -38,7 +38,7 @@ $ bash magic.sh
 
 Will change [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)'s folder icon to [Qogir icon theme](https://github.com/vinceliuice/Qogir-icon-theme)'s folder icon, add some app icon, mimetype icon.
 
-And, `app.sh` revert Slack & Telegram & VirtualBox app icon to previous resonable state.
+And, `app.sh` revert Slack & Telegram & VirtualBox app icon to previous resonable state, replace VMware, Chrome, Firefox Developer, Spotify, Foliate, Simplenote, Typora with custom app icon.
 
 Run:
 
