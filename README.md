@@ -91,7 +91,7 @@ cd src/telegram-tray/test4
 Apply:
 
 ```shell
-bash tray.sh
+bash apply.sh
 ```
 
 Revert:

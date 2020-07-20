@@ -20,3 +20,10 @@ Gnome:
 export TDESKTOP_FORCE_PANEL_ICON=1
 export TDESKTOP_DISABLE_TRAY_COUNTER=1
 ```
+
+Apply specific tray icon:
+
+```shell
+cd test{1/2/3/4}/origin
+bash apply.sh
+```
