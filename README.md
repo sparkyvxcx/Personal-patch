@@ -59,11 +59,11 @@ $ bash app.sh
 
 Before:
 
-![Dash to Dock before](https://raw.githubusercontent.com/sparkyvxcx/Personal-patch/master/screenshot/dod-before.png)
+![Dash to Dock before](screenshot/dod-before.png)
 
 After:
 
-![Dosh to Dock after](https://raw.githubusercontent.com/sparkyvxcx/Personal-patch/master/screenshot/dod-after.png)
+![Dosh to Dock after](screenshot/dod-after.png)
 
 
 #### Nautilus
@@ -74,11 +74,33 @@ $ bash magic.sh
 
 Before:
 
-![Nautilus before](https://raw.githubusercontent.com/sparkyvxcx/Personal-patch/master/screenshot/nautilus-before.png)
+![Nautilus before](screenshot/nautilus-before.png)
 
 After:
 
-![Nautilus after](https://raw.githubusercontent.com/sparkyvxcx/Personal-patch/master/screenshot/nautilus-after.png)
+![Nautilus after](screenshot/nautilus-after.png)
+
+#### System tray
+
+Telegram tray folder (use test4 for example):
+
+```shell
+cd src/telegram-tray/test4
+```
+
+Apply:
+
+```shell
+bash tray.sh
+```
+
+Revert:
+
+```shell
+bash revert.sh
+```
+
+![system-tray after](screenshot/system-tray.png)
 
 ## Acknowledgments
 
