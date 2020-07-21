@@ -38,6 +38,7 @@ do
 	sudo cp src/Simplenote/simplenote${i}.svg $dir${i}x${i}/apps/simplenote.svg
 	sudo cp src/VMware/vmware-workstation${i}.svg $dir${i}x${i}/apps/vmware-workstation.svg
 	sudo cp src/Todo/todo${i}.svg $dir${i}x${i}/apps/gnome-todo.svg
+	sudo cp src/Emacs/emacs${i}.svg $dir${i}x${i}/apps/emacs.svg
 done
 
 ##  System-Monitor
@@ -45,3 +46,5 @@ for i in 32 48 64
 do
 	sudo cp src/Monitor/monitor${i}.svg $dir${i}x${i}/apps/utilities-system-monitor.svg
 done
+
+echo "Done!"
