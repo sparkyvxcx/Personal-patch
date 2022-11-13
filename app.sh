@@ -17,6 +17,7 @@ spotify='spotify.svg'
 for i in 16 22 24 32 48 64
 do
 	sudo cp src/Slack/slack${i}.svg $dir${i}x${i}/apps/slack.svg
+	sudo cp src/Discord/discord${i}.svg $dir${i}x${i}/apps/discord.svg
 	sudo cp src/Telegram/telegram${i}.svg $dir${i}x${i}/apps/telegram.svg
 	sudo cp src/Virtualbox/virtualbox${i}.svg $dir${i}x${i}/apps/virtualbox.svg
 	sudo cp /usr/share/icons/Papirus/${i}x${i}/apps/terminal.svg $dir${i}x${i}/apps/Alacritty.svg
